@@ -1,0 +1,15 @@
+hdfs dfs -cat s3a://chong-1234/labs/Lab2.1/data.tx
+
+
+**********************
+##for directory ##
+
+hdfs dfs -put /home/hadoop/satish s3a://chong-1234/labs/
+
+hdfs dfs -get s3a://chong-1234/labs/Lab2.1 /home/hadoop
+
+## for file ##
+
+hdfs dfs -put /home/hadoop/pappu.txt s3a://chong-1234/labs/satish
+
+hdfs dfs -get s3a://chong-1234/labs/Lab3.1/salaries.txt /home/hadoop
